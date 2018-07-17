@@ -1,0 +1,18 @@
+@import "./containers/viewNews.scss";
+@import "./containers/profile.scss";
+@import "./containers/news.scss";
+
+@import "./components/header.scss";
+@import "./components/newsItem.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}

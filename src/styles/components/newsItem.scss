@@ -1,0 +1,33 @@
+@import "../variables.scss";
+
+.news-item {
+  flex: 0 0 25%;
+  padding: 10px;
+  box-sizing: border-box;
+
+  a{
+    text-decoration: none;
+  }
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__author {
+    font-size: 12px;
+    color: $greyColor;
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__like {
+    display: flex;
+    align-items: center;
+    color: $greyColor;
+  }
+}

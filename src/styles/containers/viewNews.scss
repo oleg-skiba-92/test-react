@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.view-news {
+  padding: 20px;
+
+  &__info {
+    color: $greyColor;
+  }
+  &__description {
+   margin-top: 20px;
+  }
+}

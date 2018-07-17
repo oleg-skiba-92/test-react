@@ -1,0 +1,17 @@
+.news {
+
+  &__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+}
+
+.news-filter{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
